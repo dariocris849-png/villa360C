@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Villa 360 | Contacto</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+
+        <div class="logo">
+            <h1>Villa 360</h1>
+            <p>Conoce, descubre y disfruta Villa de Allende</p>
+        </div>
+
+        <!-- MENÚ DE NAVEGACIÓN -->
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="objetivo.html">Objetivo</a>
+            <a href="contenido.html">Contenido</a>
+            <a href="lugares.html">Lugares</a>
+            <a href="contacto.html" class="activo">Contacto</a>
+        </nav>
+
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <section class="contacto">
+
+            <div class="contacto-texto">
+
+                <h2>📩 Contáctanos</h2>
+
+                <p>
+                    ¿Tienes alguna pregunta, comentario o sugerencia
+                    sobre Villa 360? Envíanos un mensaje mediante
+                    el siguiente formulario.
+                </p>
+
+                <p>
+                    Tu opinión nos ayuda a mejorar nuestra plataforma
+                    y a seguir difundiendo la riqueza cultural y
+                    turística de Villa de Allende.
+                </p>
+
+            </div>
+
+
+            <!-- FORMULARIO -->
+            <form id="formulario-contacto">
+
+                <label for="nombre">
+                    Nombre completo:
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    minlength="3"
+                    placeholder="Escribe tu nombre"
+                    required
+                >
+
+
+                <label for="correo">
+                    Correo electrónico:
+                </label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="ejemplo@correo.com"
+                    required
+                >
+
+
+                <label for="comentarios">
+                    Comentarios:
+                </label>
+
+                <textarea
+                    id="comentarios"
+                    name="comentarios"
+                    maxlength="200"
+                    placeholder="Escribe aquí tus comentarios..."
+                    required
+                ></textarea>
+
+
+                <button type="submit">
+                    Enviar información
+                </button>
+
+                <p id="mensaje-enviado"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <p>© 2026 Villa 360 | Proyecto Transversal</p>
+
+        <p>Villa de Allende, Estado de México</p>
+
+    </footer>
+
+</body>
+
+</html>
+
